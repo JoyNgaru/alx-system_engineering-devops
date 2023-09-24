@@ -1,0 +1,126 @@
+[33mcommit c9ddbb4ea0759ffe204e3090c3403318c71f8bad[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: b97b2ab 75a30ca
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Sep 24 02:21:13 2023 -0700
+
+    Merge branch 'master' of https://github.com/JoyNgaru/alx-system_engineering-devops
+
+[33mcommit b97b2ab81ca9af4d28987aae350f84c0dee4e5a8[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Sep 24 02:20:53 2023 -0700
+
+    create server and connect to it
+
+[33mcommit 75a30cae21a30c488dd315c9e65c25903d4226f5[m
+Author: Joy  Ngaru <89095799+JoyNgaru@users.noreply.github.com>
+Date:   Mon Aug 28 01:37:48 2023 +0300
+
+    Update 3-scale_up
+
+[33mcommit 1bc5582667d680e687a5cc1da5cb304b7c266734[m
+Author: Joy  Ngaru <89095799+JoyNgaru@users.noreply.github.com>
+Date:   Mon Aug 28 01:37:11 2023 +0300
+
+    Update 2-secured_and_monitored_web_infrastructure
+
+[33mcommit 75f8e7cade38eb6c9d50c9dd779eb9b5570a6ed3[m
+Author: Joy  Ngaru <89095799+JoyNgaru@users.noreply.github.com>
+Date:   Mon Aug 28 01:35:54 2023 +0300
+
+    Update 1-distributed_web_infrastructure
+
+[33mcommit 52afa91bd5d4d9fc501c10ea60ed83b5b05646ec[m
+Author: Joy  Ngaru <89095799+JoyNgaru@users.noreply.github.com>
+Date:   Mon Aug 28 01:35:08 2023 +0300
+
+    Update 0-simple_web_stack
+
+[33mcommit 324f4f3157d6f6ea50bb6c4f5790924614e89261[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Aug 27 15:28:17 2023 -0700
+
+    web servers
+
+[33mcommit 96d81080a14628f22218cbab91c32f75e3247bff[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Aug 27 15:02:20 2023 -0700
+
+    web servers
+
+[33mcommit e66718e5693653470d50c3163b5c403aedf3db78[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Wed Aug 2 22:41:21 2023 -0700
+
+    networking
+
+[33mcommit a76ce08b5a488469a748fd81600d9ed63fd5d1e6[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Wed Aug 2 11:44:27 2023 -0700
+
+    localhost
+
+[33mcommit a8af705daf07f39db1f2ef1f00c0c3b4629b1ebc[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Wed Aug 2 11:31:46 2023 -0700
+
+    networking
+
+[33mcommit dd9a8b0263291cc49c01c8c9ebb9cb8f9e167837[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Tue Aug 1 02:49:08 2023 -0700
+
+    regexp
+
+[33mcommit 79bac9bebcb7c871b2118fec0d5d797f68214fa3[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Tue Aug 1 02:47:20 2023 -0700
+
+    regexp
+
+[33mcommit 42fa455508f13b14c2cd4efd598f514a4a812605[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Mon Jul 31 10:19:55 2023 -0700
+
+    update
+
+[33mcommit 6b7147d08b2e84c40c367602f85a64b3b935593d[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:32:54 2023 -0700
+
+    update
+
+[33mcommit 162bbd2416ee9554bf424bb991ebb89af8977040[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:22:07 2023 -0700
+
+    update
+
+[33mcommit 616399d07fe4b0ee2e7b722ea6b20ae9324fec37[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:20:15 2023 -0700
+
+    update
+
+[33mcommit 6a71f8bbae984609301b2f5036f9125544b2885d[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:18:37 2023 -0700
+
+    update
+
+[33mcommit f2e1f264be9dd9638c93a7254f1fb479aa733f93[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:17:22 2023 -0700
+
+    update
+
+[33mcommit 80bcbca8b7cf33aefda0991eeaf12201bafabbe0[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:15:55 2023 -0700
+
+    update
+
+[33mcommit e541c3cbfe2557666f3dbefa0d37b7297b6891e2[m
+Author: JoyNgaru <joywanjikum@gmail.com>
+Date:   Sun Jul 30 21:14:20 2023 -0700
+
+    update
