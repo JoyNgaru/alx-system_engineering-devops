@@ -1,13 +1,27 @@
-#!/usr/bin/env bash                                                           
-# Install and configure HAproxy on your lb-01 server                          
-sudo apt-get update
-sudo apt-get -y install software-properties-common
-sudo add-apt-repository -y ppa:vbernat/haproxy-1.8
-sudo apt-get update
-sudo apt-get -y install haproxy=1.8.\*
-options="\n\tbind :80\n\tmode http\n\tuse_backend mybackend\nbackend mybackend\n\tbalance roundrobin\n\tserver 971-web-01 34.236.171.16:80 check\n\tserver 971-web-02 3.236.14.41:80 check"
-# Print a message indicating the setup is complete
-echo "Haproxy is installed and configured on web-01 and web-02. It listens on port 80 and returns 'Hello World!' at the root URL."
-sed -i '/errorfile 504/a frontend myconf' /etc/haproxy/haproxy.cfg
-sed -i "s/frontend myconf/&$options/g" /etc/haproxy/haproxy.cfg
-sudo service haproxy restart
+#!/usr/bin/env bash
+# set up load balancer
+balancer="\
+frontend haproxy_balancer
+    bind *:80
+    mode http
+    default_backend webservers
+    
+backend webservers
+    balance roundrobin
+    server 166231-web-01 100.25.0.75:80 check
+    server 166231-web-02 34.204.95.3:80 check
+"
+# Update packages
+apt-get -y update
+apt-get -y upgrade
+
+# Add HAProxy PPA
+apt-get -y install software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-2.5
+apt-get -y update
+
+# Install HAProxy
+apt-get -y install haproxy
+cp -a /etc/haproxy/haproxy.cfg{,.orig}
+echo "$balancer" >> /etc/haproxy/haproxy.cfg
+service haproxy restart
