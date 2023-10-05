@@ -1,4 +1,5 @@
-y information about subdomains
+#!/usr/bin/env bash
+# display information about subdomains
 # usage: ./dns_info.sh <domain> <subdomain>
 # use atleast 1 bash function
 
