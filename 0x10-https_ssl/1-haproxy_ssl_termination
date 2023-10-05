@@ -44,6 +44,6 @@ frontend 166231-web
 
 backend 166231-web_servers
     	balance roundrobin
-    	server web-01 100.25.0.75:80 check
-    	server web-02 54.237.0.77:80 check
+    	server web-01 54.237.73.218 check
+    	server web-02 52.91.118.224check
 # end of parameters
