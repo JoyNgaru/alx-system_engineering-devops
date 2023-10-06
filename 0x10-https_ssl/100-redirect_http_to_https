@@ -33,10 +33,10 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-# start of parameters for joyngaru.tech
+# start of parameters for okoth.tech
 frontend 166231-web
     	bind *:80
-    	bind *:443 ssl crt /etc/letsencrypt/live/www.joyngaru.tech/newfullchain.pem
+    	bind *:443 ssl crt /etc/letsencrypt/live/www.okoth.tech/newfullchain.pem
     	# Redirect if HTTPS is not used
       # redirect scheme https code 301 if !{ ssl_fc }
 
@@ -44,6 +44,6 @@ frontend 166231-web
 
 backend 166231-web_servers
     	balance roundrobin
-    	server web-01 54.237.73.218 check
-    	server web-02 52.91.118.224check
+    	server web-01 100.25.0.75:80 check
+    	server web-02 54.237.0.77:80 check
 # end of parameters
