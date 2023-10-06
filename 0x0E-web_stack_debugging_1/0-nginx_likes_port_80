@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# configure a new bash file to listen at port 80
-# Update package repositories
-ufw allow 'Nginx HTTP'
+# Changes port in Nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo service nginx start
+sudo service nginx restart
