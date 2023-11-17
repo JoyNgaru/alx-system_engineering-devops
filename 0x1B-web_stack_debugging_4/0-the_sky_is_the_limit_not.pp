@@ -1,9 +1,13 @@
-# Fix Nginx limits
-exec { 'Limit':
-  command => '/usr/bin/env sed -i s/15/2000/ /etc/default/nginx',
+# fix ulimit in nginx & set limit to above 2000
+
+exec {'replace' :
+  provider => shell,
+  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 2000\"/" /etc/default/nginx',
+  onlyif   => "grep -qE '^ULIMIT=\"-n .*\"$' /etc/default/nginx",
+  before   => Exec['restart'],
 }
-exec { '/usr/bin/env service nginx restart': }# Fix Nginx limits
-exec { 'Limit':
-  command => '/usr/bin/env sed -i s/15/2000/ /etc/default/nginx',
+
+exec {'restart':
+  provider => shell,
+  command  => 'sudo service nginx restart',
 }
-exec { '/usr/bin/env service nginx restart': }
